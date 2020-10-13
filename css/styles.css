@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer {
+  background-color: #e0e7e7;
+  border-radius: 10px;
+  display: flex;
+  width: 700px;
+  height: 200px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  display: block;
+  width: 150px;
+  border-radius: 4px;
+  font-size: 70px;
+  text-align: center;
+  color: #edf5f5;
+  background: linear-gradient(0deg, rgb(116, 117, 115) 0%, rgb(39, 39, 38) 100%);
+  font-family: "Open Sans", sans-serif;
+}
+
+.label {
+  font-size: 15px;
+  padding-top: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: #5f6161;
+}
